@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // var msg=prompt('请输入您需要进行的操作:\n1.存钱\n2.取钱\n3.显示余额\n4.退出');
+        // switch (msg) {
+        //     case '1':
+        //     var num1=prompt('请输入您需要存的金额');
+        //     var result1=parseFloat(num1)+100;
+        //     alert('您的余额为'+result1);
+        //     break;
+        //     case '2':
+        //     var num2=prompt('请输入您需要取的金额');
+        //     var result2=100-parseFloat(num2);
+        //     alert('您的余额为'+result2);
+        //     break;
+        //     case '3':
+        //     alert('您的余额为100元');
+        //     break;
+        //     default:
+        //     alert('退卡');
+        // }
+
+
+
+
+        // var msg=prompt('请输入您需要的操作:\n1.存钱\n2.取钱\n3.查询余额\n4.退出');
+        // switch (msg){
+        //     case '1' : 
+        //     var num1=prompt('请输入您要存的金额');
+        //     var result1=parseFloat(num1)+parseFloat(100);
+        //     alert('您的余额为:'+result1);
+        //     break;
+        //     case '2' : 
+        //     var num2=prompt('请输入您要取的金额');
+        //     var result2=parseFloat(100)-parseFloat(num2);
+        //     alert('您的余额为:'+result2);
+        //     break;
+        //     case '3' : 
+        //     alert ('您的余额为100元');
+        //     break;
+        //     default : 
+        //     alert ('退卡');
+        // }
+
+
+
+
+
+        var msg = prompt('请输入您需要的操作:\n1.存钱\n2.取钱\n3.查询余额\n4.退出');
+        if (msg == '1') {
+            var num1 = prompt('请输入您要存的金额');
+            var result1 = parseFloat(num1) + parseFloat(100);
+            alert('您的余额为:' + result1);
+        } else if (msg == '2') {
+            var num2 = prompt('请输入您要取的金额');
+            var result2 = parseFloat(100) - parseFloat(num2);
+            alert('您的余额为:' + result2);
+        } else if (msg == '3') {
+            alert('您的余额为100元');
+        } else {
+            alert('退卡');
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
